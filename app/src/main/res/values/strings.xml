@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Anime Review</string>
+    <string name="image_movie_list">Image Movie List</string>
+    <string name="title">Title</string>
+    <string name="day">Sunday, 18-03-2001</string>
+    <string name="overview">Overview</string>
+    <string name="release_date">Release %s</string>
+    <string name="movie">MOVIE</string>
+    <string name="tv_show">TV SHOW</string>
+    <string name="empty_movie">EMPTY MOVIE</string>
+    <string name="copyright">Created by: Russi Hersiano</string>
+    <string name="image_splash">IMAGE SPLASH</string>
+    <string name="nav_menu">Movie</string>
+    <string name="nav_tvShow">Tv Show</string>
+    <string name="nav_favorite">Favorite</string>
+    <string name="nav_search">Search</string>
+    <string name="hint_search">Search for a movie, tv show…</string>
+    <string name="error_msg">check your connection</string>
+</resources>

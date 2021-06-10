@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_movie">
+
+    <fragment
+        android:id="@+id/nav_movie"
+        android:name="id.herdroid.moviecatalog.ui.fragment.MovieFragment"
+        android:label="MovieFragment" />
+    <fragment
+        android:id="@+id/nav_tv"
+        android:name="id.herdroid.moviecatalog.ui.fragment.TvShowFragment"
+        android:label="TvShowFragment" />
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="id.herdroid.moviecatalog.ui.favorite.FavoriteFragment"
+        android:label="activity_favorite"
+        tools:layout="@layout/activity_favorite" />
+
+</navigation>
